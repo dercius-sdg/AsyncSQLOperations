@@ -1,0 +1,82 @@
+﻿<Window x:Class="Configurator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Configurator"
+        mc:Ignorable="d" Height="515.686" Width="812.255" WindowStyle="ToolWindow" Title="Конфигуратор">
+    <GroupBox Grid.Column="1" BorderThickness="0" Grid.ColumnSpan="2" Margin="0,0,10,0">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.45*"/>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="0.45*"/>
+            </Grid.ColumnDefinitions>
+            <GroupBox Name="GroupContainer"  Grid.Column="0">
+                <ListBox Name="RunTimeServer" >
+                    <ListBox.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Name="AddGroup" Header="Добавить группу" Click="AddGroup_Click"/>
+                            <MenuItem Name="OpenGroup" Header="Открыть" Click="OpenGroup_Click"/>
+                            <MenuItem Name="SaveGroup" Header="Сохранить" Click="SaveGroup_Click"/>
+                            <MenuItem Name="SaveAsGroup" Header="Сохранить как" Click="SaveAsGroup_Click"/>
+                            <MenuItem Name="FlushGroup" Header="Очистить" Click="FlushGroup_Click"/>
+                            <Separator/>
+                            <MenuItem Header="Фильтры на выполнение">
+                                <MenuItem Name="CountFilter" Header="Фильтр по количеству" Click="CountFilter_Click"/>
+                                <MenuItem Name="IDFilter" Header="Фильтр по номерам ОПС" Click="IDFilter_Click"/>
+                                <MenuItem Name="ResetFilter" Header="Сбросить фильтр" Click="ResetFilter_Click"/>
+                            </MenuItem>
+                        </ContextMenu>
+                    </ListBox.ContextMenu>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock >
+                                <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Column="0" Text="{Binding RegionId}"/>
+                                    <TextBlock Grid.Column="1" Text="{Binding Direction}"/>
+                                </Grid>
+                                <TextBlock.ToolTip>
+                                    <ToolTip Content="{Binding RegionName}"/>
+                                </TextBlock.ToolTip>
+                            </TextBlock>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </GroupBox>
+            <StackPanel Grid.Column="1" Orientation="Vertical" VerticalAlignment="Center">
+                <Button Name="AddToGroupButton" Margin="2 20 2 20" FontSize="6" BorderBrush="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" Click="AddToGroupButton_Click">
+                    <Image Source="Icons/left_arrow.png" />
+                </Button>
+                <Button Name="RemoveFromGroupButton" Margin="2 20 2 20" BorderBrush="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" Click="RemoveFromGroupButton_Click">
+                    <Image Source="Icons/right_arrow.png" />
+                </Button>
+            </StackPanel>
+            <GroupBox Grid.Column="2" Header="Список регионов" BorderThickness="0">
+                <ListBox Name="StageServerList" >
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock >
+                                <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Column="0" Text="{Binding RegionId}"/>
+                                    <TextBlock Grid.Column="1" Text="{Binding ServerName}"/>
+                                </Grid>
+                                <TextBlock.ToolTip>
+                                    <ToolTip Content="{Binding RegionName}"/>
+                                </TextBlock.ToolTip>
+                            </TextBlock>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </GroupBox>
+        </Grid>
+    </GroupBox>
+</Window>

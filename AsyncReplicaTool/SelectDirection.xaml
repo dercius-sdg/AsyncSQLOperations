@@ -1,0 +1,15 @@
+﻿<Window x:Class="AsyncReplicaTool.SelectDirection"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AsyncReplicaTool"
+        mc:Ignorable="d"
+        Title="SelectDirection" Height="86.044" Width="159.121" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
+
+    <StackPanel>
+        <Label HorizontalAlignment="Center">Выберите направление</Label>
+        <ComboBox Name="DirectionBox" Margin="2 0 2 0"/>
+        <Button Margin="5 5 5 0" Click="Button_Click">Выбрать</Button>
+    </StackPanel>
+</Window>

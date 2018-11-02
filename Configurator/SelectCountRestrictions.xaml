@@ -1,0 +1,15 @@
+﻿<Window x:Class="Configurator.SelectCountRestrictions"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Configurator"
+        mc:Ignorable="d"
+        Title="SelectDirection" Height="86.044" Width="254.46" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
+
+    <StackPanel>
+        <Label HorizontalAlignment="Center">Укажите количество выгружаемых реплик</Label>
+        <TextBox Name="RestrictionCountBox" Margin="2 0 2 0" TextAlignment="Center" PreviewTextInput="RestrictionCountBox_PreviewTextInput"/>
+        <Button Margin="5 5 5 0" Click="Button_Click">Сохранить</Button>
+    </StackPanel>
+</Window>

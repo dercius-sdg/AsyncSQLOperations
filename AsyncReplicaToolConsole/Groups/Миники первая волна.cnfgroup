@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+  <ConnectPoint ID ="EMCSVR" Direction ="1"/>
+  <ConnectPoint ID ="EMCSVK" Direction ="1"/>
+  <ConnectPoint ID ="EMCSMR" Direction ="1"/>
+</Settings>

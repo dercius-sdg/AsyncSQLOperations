@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ServersList>
+  <Region ID='ADG' Name = 'УФПС РЕСПУБЛИКИ АДЫГЕЯ'>
+    <Connection Server='D01EASDBADG' DatabaseName ='EAS_STAGE_ADG'/>
+  </Region>
+  <Region ID='ALK' Name = 'УФПС АЛТАЙСКОГО КРАЯ'>
+    <Connection Server='D01EASCL10DBC01\D01EASCL10DBC01' DatabaseName ='EAS_STAGE_ALK'/>
+  </Region>
+  <Region ID='ALR' Name = 'УФПС РЕСПУБЛИКИ АЛТАЙ'>
+    <Connection Server='D01EASCL8DBC05\D01EASCL8DBC05' DatabaseName ='EAS_STAGE_ALR'/>
+  </Region>
+  <Region ID='AMR' Name = 'УФПС АМУРСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL7DBC03\D01EASCL7DBC03' DatabaseName ='EAS_STAGE_AMR'/>
+  </Region>
+  <Region ID='ARH' Name = 'УФПС АРХАНГЕЛЬСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL8DBC04\D01EASCL8DBC04' DatabaseName ='EAS_STAGE_ARH'/>
+  </Region>
+  <Region ID='AST' Name = 'УФПС АСТРАХАНСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL7DBC01\D01EASCL7DBC01' DatabaseName ='EAS_STAGE_AST'/>
+  </Region>
+  <Region ID='BLG' Name = 'УФПС БЕЛГОРОДСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL9DBC04\D01EASCL9DBC04' DatabaseName ='EAS_STAGE_BLG'/>
+  </Region>
+  <Region ID='BRK' Name = 'УФПС БРЯНСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL7DBC04\D01EASCL7DBC04' DatabaseName ='EAS_STAGE_BRK'/>
+  </Region>
+  <Region ID='BRT' Name = 'УФПС РЕСПУБЛИКИ БУРЯТИЯ'>
+    <Connection Server='D01EASCL7DBC07\D01EASCL7DBC07' DatabaseName ='EAS_STAGE_BRT'/>
+  </Region>
+  <Region ID='BSH' Name = 'УФПС РЕСПУБЛИКИ БАШКОРТОСТАН'>
+    <Connection Server='R00EASCL4DBC07\R00EASCL4DBC07' DatabaseName ='EAS_STAGE_BSH'/>
+  </Region>
+  <Region ID='CAO' Name = 'УФПС ЧУКОТСКОГО АО'>
+    <Connection Server='D01EASCL8DBC06\D01EASCL8DBC06' DatabaseName ='EAS_STAGE_CAO'/>
+  </Region>
+  <Region ID='CHL' Name = 'УФПС ЧЕЛЯБИНСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL9DBC06\D01EASCL9DBC06' DatabaseName ='EAS_STAGE_CHL'/>
+  </Region>
+  <Region ID='CHN' Name = 'УФПС ЧЕЧЕНСКОЙ РЕСПУБЛИКИ'>
+    <Connection Server='D01EASDBCHN' DatabaseName ='EAS_STAGE_CHN'/>
+  </Region>
+  <Region ID='CHU' Name = 'УФПС ЧУВАШСКОЙ РЕСПУБЛИКИ'>
+    <Connection Server='D01EASCL9DBC02\D01EASCL9DBC02' DatabaseName ='EAS_STAGE_CHU'/>
+  </Region>
+  <Region ID='DAG' Name = 'УФПС РЕСПУБЛИКИ ДАГЕСТАН'>
+    <Connection Server='D01EASCL9DBC07\D01EASCL9DBC07' DatabaseName ='EAS_STAGE_DAG'/>
+  </Region>
+  <Region ID='EAO' Name = 'УФПС ЕВРЕЙСКОЙ АО'>
+    <Connection Server='D01EASCL9DBC03\D01EASCL9DBC03' DatabaseName ='EAS_STAGE_EAO'/>
+  </Region>
+  <Region ID='HAB' Name = 'УФПС ХАБАРОВСКОГО КРАЯ'>
+    <Connection Server='D01EASCL9DBC02\D01EASCL9DBC02' DatabaseName ='EAS_STAGE_HAB'/>
+  </Region>
+  <Region ID='HAK' Name = 'УФПС РЕСПУБЛИКИ ХАКАСИЯ'>
+    <Connection Server='D01EASCL10DBC02\D01EASCL10DBC02' DatabaseName ='EAS_STAGE_HAK'/>
+  </Region>
+  <Region ID='ING' Name = 'УФПС РЕСПУБЛИКИ ИНГУШЕТИЯ'>
+    <Connection Server='D01EASCL8DBC03\D01EASCL8DBC03' DatabaseName ='EAS_STAGE_ING'/>
+  </Region>
+  <Region ID='IRK' Name = 'УФПС ИРКУТСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL10DBC02\D01EASCL10DBC02' DatabaseName ='EAS_STAGE_IRK'/>
+  </Region>
+  <Region ID='IVN' Name = 'УФПС ИВАНОВСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL7DBC09\D01EASCL7DBC09' DatabaseName ='EAS_STAGE_IVN'/>
+  </Region>
+  <Region ID='KAL' Name = 'УФПС КАЛУЖСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASDBKAL' DatabaseName ='EAS_STAGE_KAL'/>
+  </Region>
+  <Region ID='KAM' Name = 'УФПС КАМЧАТСКОГО КРАЯ'>
+    <Connection Server='D01EASCL8DBC09\D01EASCL8DBC09' DatabaseName ='EAS_STAGE_KAM'/>
+  </Region>
+  <Region ID='KBR' Name = 'УФПС КАБАРДИНО-БАЛКАРСКОЙ РЕСПУБЛИКИ'>
+    <Connection Server='D01EASCL1DBC07\D01EASCL1DBC07' DatabaseName ='EAS_STAGE_KBR'/>
+  </Region>
+  <Region ID='KCH' Name = 'УФПС КАРАЧАЕВО-ЧЕРКЕССКОЙ РЕСПУБЛИКИ'>
+    <Connection Server='D01EASCL8DBC02\D01EASCL8DBC02' DatabaseName ='EAS_STAGE_KCH'/>
+  </Region>
+  <Region ID='KEM' Name = 'УФПС КЕМЕРОВСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL8DBC02\D01EASCL8DBC02' DatabaseName ='EAS_STAGE_KEM'/>
+  </Region>
+  <Region ID='KIR' Name = 'УФПС КИРОВСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASDBKIR' DatabaseName ='EAS_STAGE_KIR'/>
+  </Region>
+  <Region ID='KLG' Name = 'УФПС КАЛИНИНГРАДСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASDBKLG' DatabaseName ='EAS_STAGE_KLG'/>
+  </Region>
+  <Region ID='KLM' Name = 'УФПС РЕСПУБЛИКИ КАЛМЫКИЯ'>
+    <Connection Server='D01EASCL9DBC06\D01EASCL9DBC06' DatabaseName ='EAS_STAGE_KLM'/>
+  </Region>
+  <Region ID='KMR' Name = 'УФПС РЕСПУБЛИКИ КОМИ'>
+    <Connection Server='D01EASCL7DBC05\D01EASCL7DBC05' DatabaseName ='EAS_STAGE_KMR'/>
+  </Region>
+  <Region ID='KOS' Name = 'УФПС КОСТРОМСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL9DBC05\D01EASCL9DBC05' DatabaseName ='EAS_STAGE_KOS'/>
+  </Region>
+  <Region ID='KRD' Name = 'УФПС КРАСНОДАРСКОГО КРАЯ'>
+    <Connection Server='R00EASCL4DBC02\R00EASCL4DBC02' DatabaseName ='EAS_STAGE_KRD'/>
+  </Region>
+  <Region ID='KRG' Name = 'УФПС КУРГАНСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL8DBC08\D01EASCL8DBC08' DatabaseName ='EAS_STAGE_KRG'/>
+  </Region>
+  <Region ID='KRL' Name = 'УФПС РЕСПУБЛИКИ КАРЕЛИЯ'>
+    <Connection Server='D01EASCL9DBC04\D01EASCL9DBC04' DatabaseName ='EAS_STAGE_KRL'/>
+  </Region>
+  <Region ID='KRN' Name = 'УФПС КРАСНОЯРСКОГО КРАЯ'>
+    <Connection Server='R00EASCL4DBC04\R00EASCL4DBC04' DatabaseName ='EAS_STAGE_KRN'/>
+  </Region>
+  <Region ID='KUR' Name = 'УФПС КУРСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL7DBC07\D01EASCL7DBC07' DatabaseName ='EAS_STAGE_KUR'/>
+  </Region>
+  <Region ID='LIP' Name = 'УФПС ЛИПЕЦКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL9DBC05\D01EASCL9DBC05' DatabaseName ='EAS_STAGE_LIP'/>
+  </Region>
+  <Region ID='MGD' Name = 'УФПС МАГАДАНСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL10DBC01\D01EASCL10DBC01' DatabaseName ='EAS_STAGE_MGD'/>
+  </Region>
+  <Region ID='MOB' Name = 'УФПС МОСКОВСКОЙ ОБЛАСТИ'>
+    <Connection Server='R00EASCL4DBC01\R00EASCL4DBC01' DatabaseName ='EAS_STAGE_MOB'/>
+  </Region>
+  <Region ID='MRD' Name = 'УФПС РЕСПУБЛИКИ МОРДОВИЯ'>
+    <Connection Server='D01EASCL9DBC08\D01EASCL9DBC08' DatabaseName ='EAS_STAGE_MRD'/>
+  </Region>
+  <Region ID='MRL' Name = 'УФПС РЕСПУБЛИКИ МАРИЙ ЭЛ'>
+    <Connection Server='D01EASCL7DBC04\D01EASCL7DBC04' DatabaseName ='EAS_STAGE_MRL'/>
+  </Region>
+  <Region ID='MRM' Name = 'УФПС МУРМАНСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL7DBC08\D01EASCL7DBC08' DatabaseName ='EAS_STAGE_MRM'/>
+  </Region>
+  <Region ID='MSK' Name = 'УФПС Г. МОСКВЫ'>
+    <Connection Server='R00EASCL4DBC08\R00EASCL4DBC08' DatabaseName ='EAS_STAGE_MSK'/>
+  </Region>
+  <Region ID='NAO' Name = 'УФПС НЕНЕЦКОГО АО'>
+    <Connection Server='D01EASCL9DBC01\D01EASCL9DBC01' DatabaseName ='EAS_STAGE_NAO'/>
+  </Region>
+  <Region ID='NGG' Name = 'УФПС НИЖЕГОРОДСКОЙ ОБЛАСТИ'>
+    <Connection Server='R00EASCL11DBC02\R00EASCL11DBC02' DatabaseName ='EAS_STAGE_NGG'/>
+  </Region>
+  <Region ID='NOV' Name = 'УФПС НОВГОРОДСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL8DBC01\D01EASCL8DBC01' DatabaseName ='EAS_STAGE_NOV'/>
+  </Region>
+  <Region ID='NSB' Name = 'УФПС НОВОСИБИРСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL7DBC02\D01EASCL7DBC02' DatabaseName ='EAS_STAGE_NSB'/>
+  </Region>
+  <Region ID='OMS' Name = 'УФПС ОМСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASDBOMS' DatabaseName ='EAS_STAGE_OMS'/>
+  </Region>
+  <Region ID='ORB' Name = 'УФПС ОРЕНБУРГСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL8DBC07\D01EASCL8DBC07' DatabaseName ='EAS_STAGE_ORB'/>
+  </Region>
+  <Region ID='ORL' Name = 'УФПС ОРЛОВСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL7DBC05\D01EASCL7DBC05' DatabaseName ='EAS_STAGE_ORL'/>
+  </Region>
+  <Region ID='PNZ' Name = 'УФПС ПЕНЗЕНСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL9DBC08\D01EASCL9DBC08' DatabaseName =''/>
+  </Region>
+  <Region ID='PRK' Name = 'УФПС ПРИМОРСКОГО КРАЯ'>
+    <Connection Server='D01EASCL7DBC01\D01EASCL7DBC01' DatabaseName ='EAS_STAGE_PRK'/>
+  </Region>
+  <Region ID='PRM' Name = 'УФПС ПЕРМСКОГО КРАЯ'>
+    <Connection Server='D01EASDBPRM' DatabaseName ='EAS_STAGE_PRM'/>
+  </Region>
+  <Region ID='PSK' Name = 'УФПС ПСКОВСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASDBPSK' DatabaseName ='EAS_STAGE_PSK'/>
+  </Region>
+  <Region ID='RST' Name = 'УФПС РОСТОВСКОЙ ОБЛАСТИ'>
+    <Connection Server='R00EASCL4DBC03\R00EASCL4DBC03' DatabaseName ='EAS_STAGE_RST'/>
+  </Region>
+  <Region ID='RYZ' Name = 'УФПС РЯЗАНСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL7DBC09\D01EASCL7DBC09' DatabaseName ='EAS_STAGE_RYZ'/>
+  </Region>
+  <Region ID='SAH' Name = 'УФПС САХАЛИНСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASDBSAH' DatabaseName ='EAS_STAGE_SAH'/>
+  </Region>
+  <Region ID='SAR' Name = 'УФПС САРАТОВСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL9DBC01\D01EASCL9DBC01' DatabaseName ='EAS_STAGE_SAR'/>
+  </Region>
+  <Region ID='SML' Name = 'УФПС СМОЛЕНСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL1DBC08\D01EASCL1DBC08' DatabaseName ='EAS_STAGE_SML'/>
+  </Region>
+  <Region ID='SMR' Name = 'УФПС САМАРСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL9DB03\EASSMR' DatabaseName ='EAS_STAGE_SMR'/>
+  </Region>
+  <Region ID='SOA' Name = 'УФПС РЕСПУБЛИКИ СЕВЕРНАЯ ОСЕТИЯ-АЛАНИЯ'>
+    <Connection Server='D01EASCL8DBC04\D01EASCL8DBC04' DatabaseName ='EAS_STAGE_SOA'/>
+  </Region>
+  <Region ID='SPB' Name = 'УФПС Г. САНКТ-ПЕТЕРБУРГА И ЛО'>
+    <Connection Server='R00EASCL11DBC01\R00EASCL11DBC01' DatabaseName ='EAS_STAGE_SPB'/>
+  </Region>
+  <Region ID='SVK' Name = 'УФПС СТАВРОПОЛЬСКОГО КРАЯ'>
+    <Connection Server='D01EASCL8DBC09\D01EASCL8DBC09' DatabaseName ='EAS_STAGE_SVK'/>
+  </Region>
+  <Region ID='SVR' Name = 'УФПС СВЕРДЛОВСКОЙ ОБЛАСТИ'>
+    <Connection Server='R00EASCL11DBC03\R00EASCL11DBC03' DatabaseName ='EAS_STAGE_SVR'/>
+  </Region>
+  <Region ID='TAT' Name = 'УФПС ТАТАРСТАН ПОЧТАСЫ'>
+    <Connection Server='R00EASCL4DBC06\R00EASCL4DBC06' DatabaseName ='EAS_STAGE_TAT'/>
+  </Region>
+  <Region ID='TMB' Name = 'УФПС ТАМБОВСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL7DBC08\D01EASCL7DBC08' DatabaseName ='EAS_STAGE_TMB'/>
+  </Region>
+  <Region ID='TMS' Name = 'УФПС ТОМСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL9DBC07\D01EASCL9DBC07' DatabaseName ='EAS_STAGE_TMS'/>
+  </Region>
+  <Region ID='TUL' Name = 'УФПС ТУЛЬСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL8DBC01\D01EASCL8DBC01' DatabaseName ='EAS_STAGE_TUL'/>
+  </Region>
+  <Region ID='TUM' Name = 'УФПС ТЮМЕНСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL7DBC06\D01EASCL7DBC06' DatabaseName ='EAS_STAGE_TUM'/>
+  </Region>
+  <Region ID='TVR' Name = 'УФПС ТВЕРСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL8DBC05\D01EASCL8DBC05' DatabaseName ='EAS_STAGE_TVR'/>
+  </Region>
+  <Region ID='TYV' Name = 'УФПС РЕСПУБЛИКИ ТЫВА'>
+    <Connection Server='D01EASCL8DBC07\D01EASCL8DBC07' DatabaseName ='EAS_STAGE_TYV'/>
+  </Region>
+  <Region ID='UDM' Name = 'УФПС УДМУРТСКОЙ РЕСПУБЛИКИ'>
+    <Connection Server='D01EASDBUDM' DatabaseName ='EAS_STAGE_UDM'/>
+  </Region>
+  <Region ID='ULN' Name = 'УФПС УЛЬЯНОВСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASDBULN' DatabaseName ='EAS_STAGE_ULN'/>
+  </Region>
+  <Region ID='VGR' Name = 'УФПС ВОЛГОГРАДСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL8DBC03\D01EASCL8DBC03' DatabaseName ='EAS_STAGE_VGR'/>
+  </Region>
+  <Region ID='VLD' Name = 'УФПС ВЛАДИМИРСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL7DBC03\D01EASCL7DBC03' DatabaseName ='EAS_STAGE_VLD'/>
+  </Region>
+  <Region ID='VLG' Name = 'УФПС ВОЛОГОДСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL1DBC07\D01EASCL1DBC07' DatabaseName ='EAS_STAGE_VLG'/>
+  </Region>
+  <Region ID='VRN' Name = 'УФПС ВОРОНЕЖСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL8DBC06\D01EASCL8DBC06' DatabaseName ='EAS_STAGE_VRN'/>
+  </Region>
+  <Region ID='XMO' Name = 'УФПС ХАНТЫ-МАНСИЙСКОГО АО'>
+    <Connection Server='D01EASDBXMO' DatabaseName ='EAS_STAGE_XMO'/>
+  </Region>
+  <Region ID='YAK' Name = 'УФПС РЕСПУБЛИКИ САХА (ЯКУТИЯ)'>
+    <Connection Server='D01EASCL8DBC08\D01EASCL8DBC08' DatabaseName ='EAS_STAGE_YAK'/>
+  </Region>
+  <Region ID='YAR' Name = 'УФПС ЯРОСЛАВСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL7DBC06\D01EASCL7DBC06' DatabaseName ='EAS_STAGE_YAR'/>
+  </Region>
+  <Region ID='YNO' Name = 'УФПС ЯМАЛО-НЕНЕЦКОГО АО'>
+    <Connection Server='D01EASCL7DBC02\D01EASCL7DBC02' DatabaseName ='EAS_STAGE_YNO'/>
+  </Region>
+  <Region ID='ZBL' Name = 'УФПС ЗАБАЙКАЛЬСКОГО КРАЯ'>
+    <Connection Server='D01EASCL1DBC08\D01EASCL1DBC08' DatabaseName ='EAS_STAGE_ZBL'/>
+  </Region>
+  <Region ID='EMCHAB' Name = 'МИНИ УФПС ХАБАРОВСКОГО КРАЯ'>
+    <Connection Server='D01EASCL9DBC02\D01EASCL9DBC02' DatabaseName ='EMC_STAGE_HAB'/>
+  </Region>
+  <Region ID='EMCMSK' Name = 'МИНИ УФПС Г.МОСКВЫ'>
+    <Connection Server='R00EASCL4DBC08\R00EASCL4DBC08' DatabaseName ='EMC_STAGE_MSK'/>
+  </Region>
+  <Region ID='EMCNGG' Name = 'МИНИ УФПС НИЖЕГОРОДСКОЙ ОБЛАСТИ'>
+    <Connection Server='R00EASCL11DBC02\R00EASCL11DBC02' DatabaseName ='EMC_STAGE_NGG'/>
+  </Region>
+  <Region ID='EMCNSB' Name = 'МИНИ УФПС НОВОСИБИРСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL7DBC02\D01EASCL7DBC02' DatabaseName ='EMC_STAGE_NSB'/>
+  </Region>
+  <Region ID='EMCRST' Name = 'МИНИ УФПС РОСТОВСКОЙ ОБЛАСТИ'>
+    <Connection Server='R00EASCL4DBC05\R00EASCL4DBC05' DatabaseName ='EMC_STAGE_RST'/>
+  </Region>
+  <Region ID='EMCSMR' Name = 'МИНИ УФПС САМАРСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EMCDBSMR' DatabaseName ='EMC_STAGE_SMR'/>
+  </Region>
+  <Region ID='EMCSPB' Name = 'МИНИ УФПС Г. САНКТ-ПЕТЕРБУРГА И ЛО'>
+    <Connection Server='R00EASCL11DBC01\R00EASCL11DBC01' DatabaseName ='EMC_STAGE_SPB'/>
+  </Region>
+  <Region ID='EMCSVK' Name = 'МИНИ УФПС СТАВРОПОЛЬСКОГО КРАЯ'>
+    <Connection Server='D01EASCL8DBC09\D01EASCL8DBC09' DatabaseName ='EMC_STAGE_SVK'/>
+  </Region>
+  <Region ID='EMCSVR' Name = 'МИНИ УФПС СВЕРДЛОВСКОЙ ОБЛАСТИ'>
+    <Connection Server='R00EASCL11DBC03\R00EASCL11DBC03' DatabaseName ='EMC_STAGE_SVR'/>
+  </Region>
+  <Region ID='EMCTVR' Name = 'МИНИ УФПС ТВЕРСКОЙ ОБЛАСТИ'>
+    <Connection Server='D01EASCL8DBC05\D01EASCL8DBC05' DatabaseName ='EMC_STAGE_TVR'/>
+  </Region>
+</ServersList>

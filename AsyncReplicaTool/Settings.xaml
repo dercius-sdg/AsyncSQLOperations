@@ -1,0 +1,54 @@
+﻿<Window x:Class="AsyncReplicaTool.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AsyncReplicaTool"
+        mc:Ignorable="d"
+        Title="Настройки" Background="Azure" Height="515" Width="320.974" Closed="Window_Closed" WindowStartupLocation="CenterOwner" ResizeMode="CanResizeWithGrip" Icon="Icons/settings.png">
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="FontSize" Value="10"/>
+        </Style>
+    </Window.Resources>
+    <StackPanel VerticalAlignment="Stretch" Background="White" HorizontalAlignment="Center" Orientation="Vertical" Margin="4,0,3,4">
+        <GroupBox Header="Репликация" VerticalAlignment="Top">
+            <StackPanel Orientation="Vertical">
+                <Label>Название процедуры импорта</Label>
+                <TextBox Name="ImportNameBox"></TextBox>
+                <Label>Название процедуры экспорта</Label>
+                <TextBox Name="ExportNameBox"></TextBox>
+                <Label>Путь к глобальному файлу конфигурации</Label>
+                <StackPanel Orientation="Horizontal">
+                    <TextBox Name="GlobalConfigBox" Width="198"></TextBox>
+                    <Button Name="FormConfigButton" FontSize="9" Width="96" Content="Сформировать" Click="FormConfigButton_Click"/>
+                </StackPanel>
+                <Label>Путь к активному файлу конфигурации</Label>
+                <TextBox Name="ActiveConfigBox"></TextBox>
+                <Label>Количество одновременных потоков</Label>
+                <TextBox Name="ThreadsBox" PreviewTextInput="ThreadsBox_PreviewTextInput"></TextBox>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox VerticalAlignment="Stretch" Header="Оповещение">
+            <StackPanel Orientation="Vertical">
+                <DockPanel>
+                    <Label DockPanel.Dock="Left">Использовать оповещения</Label>
+                    <CheckBox Name="UseNotify" HorizontalAlignment="Right" VerticalAlignment="Center" DockPanel.Dock="Right"></CheckBox>
+                </DockPanel>
+                <Label>Порт рассылки</Label>
+                <TextBox Name="PortBox" IsEnabled="{Binding IsChecked, ElementName=UseNotify}" PreviewTextInput="PortBox_PreviewTextInput"></TextBox>
+                <Label>Сервер рассылки</Label>
+                <TextBox Name="SMTPServerBox" IsEnabled="{Binding IsChecked, ElementName=UseNotify}"></TextBox>
+                <Label>Адреса получателей</Label>
+                <TextBox Name="RecepBox" IsEnabled="{Binding IsChecked, ElementName=UseNotify}"></TextBox>
+                <Label>Адреса получателей (копия)</Label>
+                <TextBox Name="RecepCCBox" IsEnabled="{Binding IsChecked, ElementName=UseNotify}"></TextBox>
+                <Label >Отправитель</Label>
+                <TextBox Name="SenderBox" IsEnabled="{Binding IsChecked, ElementName=UseNotify}"></TextBox>
+            </StackPanel>
+        </GroupBox>
+    </StackPanel>
+</Window>

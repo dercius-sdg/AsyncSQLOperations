@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <ConnectPoint ID="ING" Direction="1" />
+  <ConnectPoint ID="MRL" Direction="1" />
+  <ConnectPoint ID="CHN" Direction="1" />
+  <ConnectPoint ID="KRL" Direction="1" />
+  <ConnectPoint ID="MGD" Direction="1" />
+  <ConnectPoint ID="NOV" Direction="1" />
+  <ConnectPoint ID="SOA" Direction="1" />
+  <ConnectPoint ID="SAH" Direction="1" />
+  <ConnectPoint ID="ORL" Direction="1" />
+  <ConnectPoint ID="SML" Direction="1" />
+  <ConnectPoint ID="TUL" Direction="1" />
+  <ConnectPoint ID="SVK" Direction="1" />
+</Settings>

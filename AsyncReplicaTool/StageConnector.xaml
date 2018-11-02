@@ -1,0 +1,29 @@
+﻿<Window x:Class="AsyncReplicaTool.StageConnector"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AsyncReplicaTool"
+        mc:Ignorable="d"
+        Title="StageConnector" Height="244.575" Width="300" WindowStyle="None" WindowStartupLocation="CenterScreen" Icon="Icons/icon.png">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="1" DockPanel.Dock="Top" Orientation="Vertical">
+                <Label>Сервер</Label>
+                <TextBox Name="ServerBox" TextChanged="ServerBox_TextChanged"/>
+                <Label>Направление интеграции</Label>
+                <ComboBox Name="DirectionBox" SelectionChanged="DirectionBox_SelectionChanged"/>
+                <Label>База данных Stage</Label>
+                <ComboBox Name="DBBox"/>
+         </StackPanel>
+        <Button Grid.Row="1" Grid.Column="1" DockPanel.Dock="Bottom" MaxHeight="30" MaxWidth="210" Click="Button_Click">Сформировать</Button>
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AsyncReplicaOperations.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConfigServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">R00EASCL12DBC01\R00EASCL12DBC01</Value>
+    </Setting>
+    <Setting Name="ConfigDatabase" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">EAS_AX_AUP</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

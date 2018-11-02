@@ -1,0 +1,17 @@
+﻿<Window x:Class="Configurator.Restrictions"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Configurator"
+        mc:Ignorable="d"
+        Title="SelectDirection" Height="256.383" Width="305.307" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
+
+    <StackPanel>
+        <Label HorizontalAlignment="Center">Необходимо указать все номера реплик ( через ;)</Label>
+        <TextBox Name="RestrictionBox" Margin="2 0 2 0" TextAlignment="Center" PreviewTextInput="RestrictionBox_PreviewTextInput" Height="158"/>
+        <CheckBox x:Name="checkBox" Margin="0 5 0 5">Использовать пользовательский путь выгрузки</CheckBox>
+        <TextBox Name="workDirectory" Margin="2 0 2 0" TextWrapping="WrapWithOverflow" IsEnabled="{Binding IsChecked, ElementName=checkBox}"></TextBox>
+        <Button Margin="5 5 5 0" Click="Button_Click">Сохранить</Button>
+    </StackPanel>
+</Window>
